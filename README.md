@@ -2,9 +2,27 @@
 
 ## 📖 Project Overview
 
-This project demonstrates SQL-based employee data analysis using **MySQL Workbench**. The database was designed to store employee information and perform analytical queries to generate meaningful business insights.
+The Employee Analysis SQL Project is a data analytics project developed using MySQL to analyze employee information and generate meaningful business insights. The project focuses on employee performance, salary analysis, workforce distribution, department-wise reporting, and data security using SQL queries.
 
-The project covers database creation, data retrieval, aggregation, filtering, grouping, window functions, CASE statements, and data masking techniques commonly used in Data Analyst, MIS Analyst, and SQL Developer roles.
+This project demonstrates practical SQL skills commonly required for Data Analyst, MIS Analyst, Business Analyst, and SQL Developer roles.
+
+---
+
+## 📌 Project Type
+
+**Data Analysis Project | SQL Project | Portfolio Project**
+
+---
+
+## ⭐ Key Highlights
+
+* Designed and implemented an Employee Database using MySQL.
+* Developed 30+ SQL queries for employee analysis and reporting.
+* Applied Aggregate Functions, CASE Statements, and Window Functions.
+* Performed department-wise workforce and salary analysis.
+* Implemented email masking using SQL string functions.
+* Generated business insights through analytical SQL queries.
+* Utilized ranking and performance categorization techniques.
 
 ---
 
@@ -19,7 +37,7 @@ The project covers database creation, data retrieval, aggregation, filtering, gr
 
 ---
 
-## 🛠️ Tools & Technologies
+## 🛠️ Tools & Technologies Used
 
 * MySQL
 * MySQL Workbench
@@ -75,7 +93,7 @@ employee
 * MIN()
 * MAX()
 
-### Grouping
+### Grouping & Filtering
 
 * GROUP BY
 * HAVING
@@ -107,19 +125,19 @@ employee
 * Display all employee records.
 * Retrieve employee names and email addresses.
 * Find employees older than 30 years.
-* Identify employees with high performance scores.
+* Identify high-performing employees.
 
 ### Department Analysis
 
 * Count employees in each department.
-* Calculate average employee scores by department.
+* Calculate department-wise average scores.
 * Find minimum and maximum employee age by department.
 
 ### Salary Analysis
 
 * Identify highest-paid employees.
-* Rank employees based on salary.
-* Rank employees within each department.
+* Rank employees by salary.
+* Rank employees within departments.
 
 ### Workforce Analysis
 
@@ -137,22 +155,35 @@ employee
 
 ### Database Creation
 
-![Database Creation](screenshorts_projects/Database_Creation.png)
+![Database Creation](Screenshots_project/Database_Creation.png)
 
 ### Employee Data
 
-![Employee Data](screenshorts_projects/Employee_Data.png)
+![Employee Data](Screenshots_project/Employee_Data.png)
 
-### Department Analysis
+### Department-wise Employee Count
 
-![Department Analysis](screenshorts_projects/Department_Analysis.png)
+![Department Analysis](Screenshots_project/Department_Analysis.png)
 
-### Salary Rank
+### Department-wise Average Score
 
-![Salary Rank](screenshorts_projects/Salary_rank_function.png)
+![Department Average Score](Screenshots_project/Department_Avg_score.png)
 
+### Active vs Inactive Employees
 
+![Employee Attrition](Screenshots_project/Employee_Attrition.png)
 
+### Performance Category Using CASE Statement
+
+![CASE Function](Screenshots_project/Employee_score_case_function.png)
+
+### Salary Ranking Using Window Function
+
+![Salary Rank](Screenshots_project/Salary_rank_function.png)
+
+### Email Masking Using String Functions
+
+![Email Masking](Screenshots_project/Substring_email.png)
 
 ---
 
@@ -162,12 +193,12 @@ employee
 * SQL Query Writing
 * Data Analysis
 * Business Reporting
+* Data Aggregation
 * Window Functions
-* Aggregate Functions
 * CASE Statements
 * String Functions
 * Data Security Techniques
-* Performance Analysis
+* Workforce Analytics
 
 ---
 
@@ -180,21 +211,21 @@ Employee-Analysis-SQL-Project/
 ├── README.md
 │
 └── Screenshots_project/
-    ├── Database_Structure.png
-    ├── Employee_Data.png
+    ├── Database_Creation.png
     ├── Department_Analysis.png
-    ├── Salary_Analysis.png
-    ├── Top_Paid_Employees.png
-    ├── Performance_Analysis.png
-    ├── Window_Function.png
-    └── Subquery_Analysis.png
+    ├── Department_Avg_score.png
+    ├── Employee_Attrition.png
+    ├── Employee_Data.png
+    ├── Employee_score_case_function.png
+    ├── Salary_rank_function.png
+    └── Substring_email.png
 ```
 
 ---
 
 ## 🚀 Project Outcome
 
-This project demonstrates practical SQL skills used in real-world business scenarios. It showcases the ability to create databases, write analytical SQL queries, perform workforce analysis, and generate business insights using MySQL.
+Successfully designed and implemented an Employee Analysis Database using MySQL. Developed analytical SQL queries to evaluate employee performance, salary trends, department-level metrics, workforce distribution, and data privacy techniques. This project demonstrates practical SQL and business analysis skills applicable to Data Analyst, MIS Analyst, and SQL Developer roles.
 
 ---
 
@@ -206,10 +237,9 @@ Aspiring Data Analyst | MIS Analyst | SQL Enthusiast
 
 ### Connect With Me
 
-* LinkedIn: [www.linkedin.com/in/deepali-sharma-689731340/](https://www.linkedin.com/in/deepali-sharma-689731340/)
+* LinkedIn: https://www.linkedin.com/in/deepali-sharma-689731340/
 * GitHub: https://github.com/sharmadeepali413-cpu
 
 ---
 
-⭐ If you found this project useful, feel free to star this repository.
-
+⭐ If you found this project useful, consider giving it a star on GitHub.
